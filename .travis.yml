@@ -14,7 +14,8 @@ before_install:
 - git config --global user.name 'r3inbowari'
 - git config --global user.email 34787894@qq.com
 install:
-- npm install hexo-cli -g
+- npm install hexo -g
+- npm install yuque-hexo -g
 - npm install
 script:
 - npm run deploy
