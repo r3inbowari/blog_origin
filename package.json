@@ -15,12 +15,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "server": "hexo server",
     "sync": "yuque-hexo sync",
-    "clean:yuque": "yuque-hexo clear",
-    "deploy": "npm run sync && hexo clean && hexo g -d"
+    "clean:yuque": "yuque-hexo clean",
+    "deploy": "npm run sync && hexo clean && hexo g -d",
+    "dev": "hexo clean && hexo server"
   },
   "hexo": {
     "version": "4.2.1"
