@@ -18,8 +18,7 @@ install:
 - npm install yuque-hexo -g
 - npm install
 script:
-- set YUQUE_TOKEN=NVQaTT16bxoMd42bsOStYq5YJaldXfIOHjE5insG
-- yuque-hexo sync
+- npm run deploy
 cache:
   directories:
   - node_modules
