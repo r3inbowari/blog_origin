@@ -18,7 +18,7 @@ install:
 - npm install yuque-hexo -g
 - npm install
 script:
-- npm run deploy
+- yuque-hexo sync
 cache:
   directories:
   - node_modules
